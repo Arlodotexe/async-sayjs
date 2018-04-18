@@ -1,8 +1,9 @@
 # async-sayjs
 An async wrapper for [Say.js](https://github.com/marak/say.js/) that enables text to wait for each TTS request to finish before speaking the next one
 
-# Installation
-There is not currently an NPM module for async-sayjs. For now, simply download `async-say.js` to your project folder and use `const say = require('./async-say.js')` to import it.
+# Installing
+
+`npm install async-sayjs`
 
 # Usage
 
@@ -10,7 +11,7 @@ NOTE: In it's current form, async-say will fail to execute asyncronously when an
 
 ``` Javascript
 
-const say = require('./async-say.js');
+const say = require('async-say');
 
 // Speak something asynchronously (wait for each request to finish before moving on)
 say.speak('The quick brown fox');
