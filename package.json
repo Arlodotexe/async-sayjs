@@ -1,0 +1,23 @@
+{
+  "name": "async-sayjs",
+  "version": "1.0.1",
+  "description": "An async wrapper for Say.js that enables waiting for each TTS request to finish before speaking the next one",
+  "main": "async-say.js",
+  "dependencies": {
+    "say": "^0.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arlodotexe/async-sayjs.git"
+  },
+  "author": "Arlodotexe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arlodotexe/async-sayjs/issues"
+  },
+  "homepage": "https://github.com/Arlodotexe/async-sayjs#readme"
+}
