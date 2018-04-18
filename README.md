@@ -22,7 +22,7 @@ say.now('Jumped over the lazy dog');
 say.speak('As it ran through the woods', 'Microsoft David Desktop');
 
 // Speak something, but slowly
-say.speak('Lorem ipsum dolor sit amet', 'Microsoft Zira Mobile', 0.5);
+say.speak('Lorem ipsum dolor sit amet', 'Microsoft Zira Desktop', 0.5);
 
 // Speak something, then fire a callback
 say.speak('Lorem ipsum dolor sit amet', 'Microsoft David Desktop', 0.5, (err) => {
