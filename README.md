@@ -11,7 +11,7 @@ NOTE: In it's current form, async-say will fail to execute asyncronously when an
 
 ``` Javascript
 
-const say = require('async-say');
+const say = require('async-sayjs');
 
 // Speak something asynchronously (wait for each request to finish before moving on)
 say.speak('The quick brown fox');
