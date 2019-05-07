@@ -1,6 +1,6 @@
 {
   "name": "async-sayjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An async wrapper for Say.js that enables waiting for each TTS request to finish before speaking the next one",
   "main": "async-say.js",
   "dependencies": {

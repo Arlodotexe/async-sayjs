@@ -33,3 +33,11 @@ say.speak('Lorem ipsum dolor sit amet', 'Microsoft David Desktop', 0.5, (err) =>
 // Stop anything currently being spoken (Queued text will continue after that)
 say.stop(callback);
 ```
+
+
+---
+### A note about the obvious:
+
+This was my first npm module ever published. 
+
+After a lot of learning I realized that this module actually provides a _synchronous_ wrapper for sayjs. However, I am unable to change the name of the module. 
